@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Trabajo Integrador - Tickets</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Trabajo Integrador">
+
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <meta name="viewport" contents="device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="Codo a Codo">
+    <meta name="description" content="Trabajo integrador ">
+    <meta name="author" content="Federico Mamoris">
+    <meta name="copyright" content="Federico Mamoris 2021">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="content-type" content="text/html;UTF-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="content-language" content="es">
+</head>
+
+<body>
+    <!-- HEADER NAV -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid" id="nav-bar">
+                <a class="navbar-brand font-weight-bold" href="../integrador.html"> <img src="../static/images/codoacodo.png" width="80" height="55" alt="">
+                    Conf Bs As</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../integrador.html">La conferencia</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-secondary" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-secondary" href="#">Lugar y fecha</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-secondary" href="#">Lugar y Conviérte en orador</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-success" href="../pages/sale-tickets.html">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="d-flex justify-content-center text-center mt-4 mb-4 form-discount">
+            <div class="col-md-7 col-lg-8">
+                <div class="row g-3">
+                    <div class="col-12 pb-2 pt-2">
+                        <div class="card-group">
+                            <div class="card border-info text-center mr-1 ml-1">
+                                <div class="card-body">
+                                    <h3 class="card-title">Estudiante</h3>
+                                    <p class="card-text text-discount">Tienen un descuento</p>
+                                    <h4>80%</h4>
+                                    <p class="card-text text-muted">* presentar documentación</p>
+                                </div>
+                            </div>
+                            <div class="card border-info border-left text-center mr-1 ml-1">
+
+                                <div class="card-body">
+                                    <h3 class="card-title">Trainee</h3>
+                                    <p class="card-text text-discount">Tienen un descuento</p>
+                                    <h4>50%</h4>
+                                    <p class="card-text text-muted">* presentar documentación</p>
+                                </div>
+                            </div>
+                            <div class="card border-warning border-left text-center mr-1 ml-1">
+
+                                <div class="card-body">
+                                    <h3 class="card-title">Junior</h3>
+                                    <p class="card-text text-discount">Tienen un descuento</p>
+                                    <h4>15%</h4>
+                                    <p class="card-text text-muted">* presentar documentación</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="card-text text-discount">Venta</p>
+                <h2 class="mb-3">VALOR DE TICKETS $200</h2>
+                <form class="needs-validation" id="form-tickets" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6 pb-2 pt-2">
+                            <input type="text" class="form-control" id="firstName" placeholder="Nombre" minlength="3" value="" required>
+                            <div class="invalid-feedback text-left">
+                                Dato válido.
+                            </div>
+                             <div class="valid-feedback text-left">
+                                Dato válido.
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-2 pt-2">
+                            <input type="text" class="form-control" id="lastName" placeholder="Apellido" minlength="2" value="" required>
+                            <div class="invalid-feedback text-left">
+                                Debe ingresar un apellido.
+                            </div>
+                            <div class="valid-feedback text-left">
+                                Dato válido.
+                            </div>
+                        </div>
+                        <div class="col-12 pb-2 pt-2">
+                            <input type="email" class="form-control" id="email" required="required" placeholder="Correo">
+                            <div class="invalid-feedback text-left">
+                                Debe ingresar un correo válido.
+                            </div>
+                            <div class="valid-feedback text-left">
+                                Dato válido.
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-2 pt-2 text-left">
+                            <label for="qty" class="form-label ">Cantidad</label>
+                            <input type="number" min="1" class="form-control" id="qty" placeholder="Cantidad" value="" onchange="calculate()" required>
+                            <div class="invalid-feedback text-left">
+                                Debe seleccionar una cantidad válida.
+                            </div>
+                            <div class="valid-feedback">
+                                Dato válido.
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 pb-2 pt-2 text-left">
+                            <div class="form-select">
+                                <label for="categoria">Categoria</label>
+                                <select onchange="calculate()" id="category" class="form-control" required>
+                                    <option selected disabled value="">Seleccione una caterogia</option>
+                                    <option value="1">Estudiante</option>
+                                    <option value="2">Trainee</option>
+                                    <option value="3">Junior</option>
+                                </select>
+                                <div class="invalid-feedback text-left">
+                                    Debe Seleccionar una categoria.
+                                </div>
+                                <div class="valid-feedback">
+                                Dato válido.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-12 pb-2 pt-2">
+                            <div class="alert alert-info alert-dismissible  text-left" role="alert" id="total">
+                                Total a pagar: $
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pb-2 pt-2">
+                            <button type="button" class=" button-green-light btn btn-lg btn-block text-white" id="button-reset" onclick="resetForm()">Borrar</button>
+                        </div>
+                        <div class="col-sm-6 pb-2 pt-2">
+                            <button type="submit" class=" button-green-light btn btn-lg btn-block text-white" id="button-confirm">Resumen</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="footer-background">
+        <ul class="container nav justify-content-between  pb-4 pt-4" id="footer-content">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Preguntas Fecuentes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contáctenos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Prensa</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Conferencias</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Términos y condiciones</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacidad</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Estudiantes</a></li>
+        </ul>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://getbootstrap.com/docs/5.1/examples/checkout/form-validation.js"></script>
+    <script src="../static/js/js.js"></script>
+
+
+</body></html>

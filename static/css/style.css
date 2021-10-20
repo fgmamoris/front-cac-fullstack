@@ -1,0 +1,260 @@
+@media screen and (min-width: 600px) {
+
+    #lista-nav {
+
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 6.5rem !important;
+        margin-bottom: -8.5rem !important;
+    }
+
+    #jumbotron-content {
+        padding-right: 2rem !important;
+        width: 70vw !important;
+        margin-left: auto !important;
+
+    }
+
+    #card {
+        width: 30rem !important;
+    }
+
+    #cards-group {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        -ms-flex-flow: row wrap !important;
+        flex-flow: row wrap !important;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #lista-nav {
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 6.5rem !important;
+        margin-bottom: -8.5rem !important;
+    }
+
+    #jumbotron-content {
+        width: 65vw !important;
+        margin-left: auto !important;
+        padding-right: 2.5rem !important;
+    }
+
+    #card {
+        width: 18.5rem !important;
+    }
+
+    #cards-group {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        -ms-flex-flow: row wrap !important;
+        flex-flow: row wrap !important;
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #lista-nav {
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 7.5rem !important;
+        margin-bottom: -8.5rem !important;
+    }
+
+    #jumbotron-content {
+        width: 60vw !important;
+        margin-left: auto !important;
+        padding-right: 4.5rem !important;
+        padding-left: 1rem !important;
+    }
+
+    #card {
+        width: 17.5rem !important;
+    }
+
+    #form-suscrption {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #lista-nav {
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 8.5rem !important;
+        margin-bottom: -8.5rem !important;
+    }
+
+    #jumbotron-content {
+        width: 55w !important;
+        padding-right: 4.5rem !important;
+    }
+
+    #card {
+        width: 17.5rem !important;
+    }
+
+    #form-suscrption {
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+    }
+
+    #nav-bar {
+        margin-left: 1.2rem !important;
+        margin-right: 1.1rem !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #lista-nav {
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 7rem !important;
+        margin-bottom: -8.5rem !important;
+    }
+
+    #jumbotron-content {
+        width: 50vw !important;
+        margin-left: auto !important;
+        padding-right: 3.5rem !important;
+    }
+
+    #card {
+        width: 18.5rem !important;
+    }
+
+    #form-suscrption {
+        padding-left: 7rem !important;
+        padding-right: 7rem !important;
+    }
+
+    #nav-bar {
+        margin-left: 1.2rem !important;
+        margin-right: 1.1rem !important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #lista-nav {
+        padding-right: 1rem !important;
+    }
+
+    #jumbotron {
+        padding-bottom: 10.5rem !important;
+        margin-bottom: -8.3rem !important;
+    }
+
+    #jumbotron-content {
+        width: 50vw !important;
+        margin-left: auto !important;
+        padding-right: 5rem !important;
+        padding-left: 4rem !important;
+    }
+
+    #card {
+        width: 19rem !important;
+    }
+
+    #form-suscrption {
+        padding-left: 9rem !important;
+        padding-right: 9rem !important;
+    }
+
+    #nav-bar {
+        margin-left: 4rem !important;
+        margin-right: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #jumbotron {
+        padding-bottom: 9rem !important;
+        margin-bottom: -8rem !important;
+    }
+
+    #jumbotron-content {
+        width: 50vw !important;
+        margin-left: auto !important;
+        padding-right: 5.5rem !important;
+    }
+
+    #card {
+        width: 21rem !important;
+    }
+
+    #form-suscrption {
+        padding-left: 9rem !important;
+        padding-right: 9rem !important;
+    }
+
+    #nav-bar {
+        margin-left: 4rem !important;
+        margin-right: 4rem !important;
+    }
+}
+
+#jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.4)), url('../../static/images/ba1.jpg');
+    background-size: cover;
+    height: 710px;
+    position: relative;
+    top: -8rem;
+    display: block;
+}
+
+#image-card-honolulu {
+    padding-right: 0px;
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#text-area-hint {
+    font-size: 1.5rem !important;
+}
+
+#footer-background {
+    background: linear-gradient(to right, #1d3744, #1e5372);
+}
+
+#button-send {
+    background-color: #96c93e;
+}
+
+.button-green-light {
+    background-color: #97c93e !important;
+}
+
+.text-discount {
+    font-size: 1.3rem;
+}
+
+
+.nav-bar-index {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.form-discount {    
+    padding-top: 4rem;
+}
